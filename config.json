@@ -1,0 +1,7 @@
+{
+  "ref": 200000,
+  "delta": 0.01,
+  "take": 50,
+  "glow_time": 3,
+  "currency_pairs": "XRP/USDT/TRX/USDT/RUB"
+}

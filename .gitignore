@@ -1,0 +1,9 @@
+# Editors
+.vscode/
+.idea/
+
+#__init__
+.__init__.py
+
+#secret
+**/*.cfg

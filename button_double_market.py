@@ -169,7 +169,7 @@ class App(tk.Tk):
         self.amount_from_sale = amount_from_sale
 
     def make_market(self):
-        end_ask = (self.ref + self.delta) / (self.amount_from_sale / self.uin)
+        end_ask = round((self.ref + self.delta) / (self.amount_from_sale / self.uin), 8)
         start_ask_save = end_ask
         for ask in self.currency_pairs_order:
             if list(ask.values())[0] == 'sell':
